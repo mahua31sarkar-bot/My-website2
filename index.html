@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Content - SEO Content Writing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-50 text-gray-800;
+        }
+        .prose {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-900">Elevate Content</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <!-- Applied vertical padding to all links for consistent alignment -->
+                <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors py-2.5">Services</a>
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors py-2.5">About</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-blue-600 transition-colors py-2.5">Portfolio</a>
+                <a href="#contact" class="px-5 py-2.5 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">Contact Us</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg py-4 px-6 absolute w-full transition-all duration-300 ease-in-out transform">
+            <a href="#services" class="block py-2 text-gray-600 hover:text-blue-600 transition-colors">Services</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600 transition-colors">About</a>
+            <a href="#portfolio" class="block py-2 text-gray-600 hover:text-blue-600 transition-colors">Portfolio</a>
+            <a href="#contact" class="block py-2 text-blue-600 hover:text-blue-700 font-medium transition-colors mt-2">Contact Us</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4">
+                Content that Converts. <br> Powered by SEO.
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                We craft high-quality, SEO-optimized content that drives organic traffic, engages your audience, and boosts your bottom line.
+            </p>
+            <a href="#contact" class="inline-block px-8 py-4 bg-blue-600 text-white font-bold rounded-full shadow-lg hover:bg-blue-700 transform hover:scale-105 transition-all">
+                Get a Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <div class="text-blue-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 text-center mb-2">SEO-Optimized Blog Posts</h3>
+                    <p class="text-gray-600 text-center">
+                        Regular, high-quality blog content that attracts organic traffic and establishes your brand as an authority in your niche.
+                    </p>
+                </div>
+                <!-- Service Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <div class="text-blue-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2-3 .895-3 2c0 1.105 1.343 2 3 2m0-8a6 6 0 00-6 6v1a2 2 0 002 2h8a2 2 0 002-2v-1a6 6 0 00-6-6z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 text-center mb-2">Website Copy & Landing Pages</h3>
+                    <p class="text-gray-600 text-center">
+                        Persuasive copy that guides visitors to conversion, built on a foundation of solid keyword research.
+                    </p>
+                </div>
+                <!-- Service Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform hover:scale-105">
+                    <div class="text-blue-600 mb-4">
+                        <svg class="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14m-5-8l4 4m0 0l4 4m-4-4H4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 text-center mb-2">Content Strategy</h3>
+                    <p class="text-gray-600 text-center">
+                        Comprehensive content planning, keyword research, and competitive analysis to ensure your content stands out.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="bg-blue-600 text-white py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">My Story</h2>
+                <p class="text-lg md:text-xl mb-4">
+                    Hello! I'm a dedicated SEO content writer with a passion for helping businesses succeed online. For the past **nine years**, I've specialized in crafting content that not only resonates with human readers but also ranks high on search engines. I believe that a strong online presence begins with a compelling story, and I am here to help you tell yours.
+                </p>
+                <p class="text-lg md:text-xl">
+                    My experience includes extensive **keyword research**, **competitive analysis**, and **content strategy development**. I've had the privilege of working with a diverse range of clients, from small startups to established brands, helping them achieve significant growth in organic traffic and customer engagement. My goal is to be more than just a writer; I want to be your strategic partner in building a powerful and profitable content presence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our Recent Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Portfolio Item 1 (Tech Blog Post) -->
+                <a href="#tech-blog-post-1" class="bg-white rounded-xl shadow-md overflow-hidden transform transition-transform hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/ffffff?text=Tech+Blog+Post" alt="Tech Blog Post" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">"The 10 best standing steam press machines for your home with powerful features for December 2023"</h3>
+                        <p class="text-gray-600">A detailed blog post for a B2B tech company, resulting in a 30% increase in organic traffic within 3 months.</p>
+                    </div>
+                </a>
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="https://placehold.co/600x400/1e40af/ffffff?text=eCommerce+Website+Copy" alt="eCommerce Website Copy" class="w-full h-56 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-2">eCommerce Product Descriptions</h3>
+                        <p class="text-gray-600">Refined product descriptions for an online store, leading to a 15% improvement in conversion rates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Content Section -->
+    <section id="tech-blog-post-1" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="prose bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <a href="#portfolio" class="inline-block mb-8 text-blue-600 hover:underline">
+                    &larr; Back to Portfolio
+                </a>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    The 10 best standing steam press machines for your home with powerful features for December 2023
+                </h1>
+                <p class="text-gray-600 mb-8">
+                    <span class="font-bold">Summary:</span> The vertical design of the best standing steam press machine for domestic use eliminates wrinkles efficiently. Integrating ironing and steaming capabilities offers a practical resolution for maintaining garments in a pristine condition. Simplified and innate, it improves the maintenance of garments at home.
+                </p>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Introduction</h2>
+                <p class="mb-4">
+                    The best-standing steam press machine is a great way to simplify your life and save time for ironing. They provide a comfortable, stress-free approach to caring for your clothing, eliminating manual ironing and saving you time in the long run. With so many different models of steam press standing on the market today, it can be overwhelming to figure out which one is best suited for your particular needs.
+                </p>
+                <p class="mb-4">
+                    In contrast to traditional irons, the best-standing steam press machine has a vertical layout and seems like a stylish little closet. In addition to making the most use of available space, its design provides a more pleasant and natural method of steaming and ironing clothes. The dual functionality of the best home steam press machines is one of their most notable qualities. The steam press machine promises a flexible and all-inclusive approach to clothing maintenance by combining heating and ironing functions into a single device. The ironing feature meets the varied demands of different textiles by ensuring a crisp and polished finish, while the steam capability easily eliminates wrinkles.
+                </p>
+                <p class="mb-4">
+                    When choosing a household appliance, ease of use is essential, and the best standing steam press machine offers top priority to user-friendly interfaces. For users of all skill levels, the intuitive controls, customisable settings, and quick heating mechanisms make for a smooth experience. These machines can adapt to the varied wardrobes in an average family because they are made to handle a variety of materials and garment types.
+                </p>
+                <p class="mb-8">
+                    Additionally, the best standing steam press machine has a small size and space-saving design, guaranteeing their smooth integration into contemporary homes. These machines may now be found in dressing rooms or bedrooms, increasing accessibility and simplifying the washing process. They are no longer limited to the laundry room.
+                </p>
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Product list</h2>
+                <ul class="list-disc list-inside space-y-4 text-gray-700">
+                    <li>
+                        <strong class="font-semibold">Goodscity garment steamer:</strong> This best standing steam press machine is necessary for all your laundering needs. With a powerful 2000-watt all-aluminium heating element that heats up quickly and evenly, you'll have full steam in just 45 seconds - perfect for those last-minute touch-ups. The adjustable pole lets you use the garment steamer from any angle, while the soft-grip handle and insulated steam hose make it easy to manoeuvre around your fabric and get into those hard-to-reach areas for flawless pressing every time. The side drain design also makes cleaning out residue from previous uses a breeze. With this standing steam press, you'll have everything you need to keep your clothes looking their best.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Philips standing garment steamer:</strong> The Philips Standing Garment Steamer STE3160/30 offers robust functionality and a cutting-edge appearance. This steamer guarantees efficient wrinkle reduction with its impressive 2000-watt output. The board's distinctive tilting design enhances ease, enabling users to steam clothing effortlessly in a more ergonomic posture. This device has three steam settings and can handle different fabrics, offering versatility in handling garments. The steamer produces a notable steam production of up to 40 g/min, guaranteeing fast and efficient outcomes. The Philips garment steamer is a dependable and adaptable tool for preserving a refined and impeccably presented wardrobe inside the confines of one's home.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Pringle Garment Steamer | Variable Stream Control:</strong> Discover the GS105 Pringle garment steamer, a cost-effective and adaptable alternative for cleaning clothes. Its powerful steam output of up to 30g/min effectively removes wrinkles from various fabric types thanks to its variable steam control. The auto shut-off feature prioritises safety by shutting off the steamer while not in use. Longer steaming periods are possible because of the 1.5L removable big water tank, which lowers the need for refills. Adding a cloth brush and hand glove to this steamer enhances the steaming experience. This is the best standing steam press machine, a multifunctional and easy-to-use equipment that will make your clothes cleaning routine easier and more efficient.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Pringle 1800-watt garment steamer:</strong> The Pringle 1800w Garment Steamer, the best standing steam press machine, is an effective partner for pressing clothes. It offers the highest level of safety while in use thanks to its 1800-watt capacity and auto cut-off feature. The 1.5L water tank allows longer steaming sessions, and the powerful 30g/min steam output easily removes wrinkles. Beyond the essentials, this garment steamer improves your ironing experience with a fabric brush and gloves. This steamer is a dependable and easy-to-use option for getting spotless and well-groomed clothes because of its innovative design and useful features. Upgrade your ironing practice with this multipurpose tool that offers simplicity, safety, and power.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Havells Glanzo Garment Steamer:</strong> The Havells Glanzo, the best standing steam press machine, is perfect for keeping your clothes clean, crisp and professional. With its standing design and high-powered heating element, you can easily remove wrinkles from any garment quickly and efficiently. The adjustable nozzle makes targeting specific areas with just the right amount of heat easy. It has a 1.5L water tank, so you always have ample steam. Any fabric may be correctly steamed using one of the six steam settings: silk, fibre, lint, wool, or linen. Dry heat protection is built in, protecting the device from harm when it is turned on without water.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">American MICRONIC-Imported-Floor Standing Garment Steamer:</strong> Designed to streamline your clothes care regimen, the American MICRONIC is the best standing steam press machine and is a strong and effective device. This steamer's powerful 1800-watt engine efficiently removes wrinkles and revitalises clothes. Long-term use is guaranteed by its 1.7-litre water tank, and different fabric kinds may be catered to with its adjustable steam settings. The elegant black and silver pattern gives your room a refined look. It's an excellent option for home and business use because it has an inbuilt hanging that makes steaming easy. Take advantage of the American MICRONIC floor standing garment steam machine to enhance your experience with laundry.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">INALSA Garment Steamer:</strong> With 1700 Watts of power, the Inalsa best-standing steam press machine is a high-performance device that guarantees effective and rapid wrinkle elimination. Its variable steam control knob offers versatility in clothing care by enabling customisation according to fabric requirements. The intense steam output ensures expert results, leaving your clothing clean and well-groomed. The steamer has a handy 1.5-litre removable water tank for prolonged use without regular refilling. It is a great option for use at home because of its portable size and easy-to-use design. With its powerful, convenient, and efficient steam performance, the Inalsa standing garment steamer will alter your laundry routine.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Rossmann Professional Garment Steamer:</strong> With 2000 Watts of power, the best standing steam press machine is a powerful tool for providing high-quality clothing care. Its adaptable 3-way adjustable board easily fits a variety of clothing kinds. This steamer's six steam control settings allow for exact textile customisation and the best possible outcomes. More extended steaming periods are possible because of the detachable 1.8-litre water tank, which reduces the need for refills. The steamer's mobility makes it a helpful option for usage at home, and its user-friendly design further boosts convenience. With the Rossmann Professional Garment Steamer, you can steam clothes more effectively and power-efficiently. It has a large water tank for effective steaming.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Inalsa - Standing Garment Steamer Steam Master -1600w:</strong> With 2000 Watts of power, the Inalsa best standing steam press machine is a powerful tool that ensures effective and speedy wrinkle elimination. With its unique twin pole design and 90° and 180° changeable ironing board, it provides a variety of alternatives for clothing care. Pole height adjustment provides versatility to suit different user preferences. The large 2.2-litre water tank reduces hiccups and lets you steam for longer. This steamer heats up quickly—45 seconds—so it's always ready to go. The remarkable steam output of 32 grammes per minute ensures expert outcomes. With its powerful motor, versatile design, and large water capacity, the INALSA steamer will revolutionise your daily laundry.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Philips GC487/80 Garment Steamer:</strong> With 1800 Watts of power, the Philips GC487/80, the best standing steam machine, is a formidable device for effective and hassle-free laundry care. Its multicoloured pattern gives your room a splash of colour. The steamer warms up rapidly and is immediately used. Its innovative features offer longer usage and convenience, including a continuous steam supply and a big removable water tank. With its versatility, the steamer ensures delicate yet efficient wrinkle removal on various materials. It's a helpful option for home and business use because of its ergonomic design and simplicity. The garment steamer will improve your experience of caring for your clothes.
+                    </li>
+                </ul>
+                <h2 class="text-2xl font-bold text-gray-800 my-4">Best overall product</h2>
+                <p class="mb-4">
+                    The Philips Standing Garment Steamer is the unrivalled pinnacle of garment care solutions. With state-of-the-art technology, this product quickly removes creases and revitalises textiles with exceptional efficiency. The steamer's ergonomic design guarantees effortless functionality and prolonged usage. The steaming process is accelerated by the quick heat-up time, and the revolutionary features, such as Flex-head technology, provide adaptability in reaching every fabric. Philips, the best standing steam machine clothing steamer, is well-known for its dependability and exceptional performance, making it the unparalleled option for individuals who value top-notch quality, ease, and flawless clothing care.
+                </p>
+                <h2 class="text-2xl font-bold text-gray-800 my-4">Best Value for money</h2>
+                <p class="mb-4">
+                    Inalsa Steam Master Standing Garment Steamer proves to be a potent and effective way to get clothes free of wrinkles. This steamer removes wrinkles quickly and smoothly, making clothes maintenance a breeze. Its rapid heat-up time guarantees immediate use, and its ergonomic shape and adjustable pole make handling simple. The large size of the water tank reduces the need for frequent refills, which improves convenience. For consumers looking for a powerful clothes steamer, the 1600W heating element ensures dependable operation, making it a reliable option. Its unique features, power, and speed set it as the best value for the money.
+                </p>
+                <h2 class="text-2xl font-bold text-gray-800 my-4">How to find the perfect Standing Steam Press Machines</h2>
+                <p class="mb-4">
+                    Think about important aspects while selecting the ideal standing steam press machine. Start by measuring the wattage to ensure effective wrinkle removal and firm performance. Verify the water tank's capacity to ensure prolonged use between refills. For ease of usage, look for ergonomic designs and adjustable poles. Features like fast heat-up times and flexible steam directions improve functionality. Examine user evaluations for practical advice and make a dependability comparison across products. Models with sturdy construction and safety features should be given priority. To ensure the machine fits perfectly into your lifestyle, consider its size and ease of storage.
+                </p>
+                <h2 class="text-2xl font-bold text-gray-800 my-4">FAQS</h2>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>
+                        <strong class="font-semibold">What is the working principle of the steam press?</strong> The pressing plate of a steam press is over 10 times bigger than an iron. This vast flat plate produces flawless results fast and with less effort than ironing.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Does steam press clean clothes?</strong> Steam cleaners eliminate odours. The heat from them is applied to textiles. The Laundress says steaming kills odour-causing bacteria and germs, among other benefits.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">Is steaming faster than ironing?</strong> Yes, steaming is generally faster than ironing as it removes wrinkles using steam to relax fabric fibres.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">What is the difference between an iron press and a steam press?</strong> A steamer uses heat and moisture to smooth cloth and minimise wrinkles. However, an iron flattens cloth with heat and pressure.
+                    </li>
+                    <li>
+                        <strong class="font-semibold">How does the steam press machine work?</strong> A steam press machine produces and releases steam on textiles. Fibres relax, and wrinkles disappear with the hot plate and steam.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 italic text-center mb-4">"The team at Elevate Content is phenomenal. Our website traffic has skyrocketed, and their writing is top-notch. Highly recommend!"</p>
+                    <p class="font-semibold text-gray-900 text-center">- Jane Doe, CEO of Tech Solutions Inc.</p>
+                </div>
+                <!-- Testimonial Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 italic text-center mb-4">"They took the time to understand our brand voice and delivered content that felt authentic. We're thrilled with the results."</p>
+                    <p class="font-semibold text-gray-900 text-center">- John Smith, Marketing Director at Growth Co.</p>
+                </div>
+                <!-- Testimonial Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg">
+                    <p class="text-gray-600 italic text-center mb-4">"Professional, reliable, and incredibly talented. They are our go-to for all things SEO content."</p>
+                    <p class="font-semibold text-gray-900 text-center">- Emily Chen, Founder of Creative Spark</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-100 py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">Let's Talk Content</h2>
+                <p class="text-gray-600 text-center mb-8">Ready to elevate your online presence? Fill out the form below and we'll be in touch to discuss your needs.</p>
+                <form>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="Your Name">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="Your Email">
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="w-full md:w-auto px-8 py-4 bg-blue-600 text-white font-bold rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Elevate Content. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu -->
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
